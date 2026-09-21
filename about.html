@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="about">
     <h1>About Me</h1>
-    <p>Selamat datang di website pribadi saya.</p>
+    <p class="greeting">Selamat datang di website pribadi saya.</p>
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a>
+      <div class="nav-link">
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="project.html">Project</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="hobi.html">Hobi</a>
+      </div>
     </nav>
     <hr />
     <h2>Profil Singkat</h2>
@@ -22,7 +27,7 @@
       josjis.
     </p>
     <h2>Data Diri</h2>
-    <table border="3" cellspacing="0" cellpadding="8">
+    <table border="3" cellspacing="0" cellpadding="8" class="tabel">
       <tr align="center">
         <td><strong>Data</strong></td>
         <td><strong>Keterangan</strong></td>
@@ -48,21 +53,15 @@
         <td>rifaalfiyah@student.upi.edu</td>
       </tr>
     </table>
-    <h2>Hobi</h2>
-    <ol>
-      <li>Bermain Game</li>
-      <li>Mendengarkan Lagu</li>
-      <li>Menonton Film</li>
-    </ol>
     <h2>Riwayat Pendidikan</h2>
-    <ul>
+    <ul class="listbulat">
       <li>SD Interaktif Gemilang Mutaffanin 2012-2018</li>
       <li>SMP Islam Terpadu Fithrah Insani 2018-2021</li>
       <li>SMK Negeri 1 Cimahi 2021-2025</li>
       <li>Universitas Pendidikan Indonesia 2025-Sekarang</li>
     </ul>
     <hr />
-    <a href="home.html">Kembali ke Home</a>
+    <a href="index.html" class="back">Kembali ke Home</a>
     <p>© 2026 Rifa Alfiyah.</p>
   </body>
 </html>

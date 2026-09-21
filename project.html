@@ -3,37 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="project">
     <h1>My Projects</h1>
     <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a>
+      <div class="nav-link">
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="project.html">Project</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="hobi.html">Hobi</a>
+      </div>
     </nav>
     <hr />
     <h2>Daftar Projek</h2>
     <p>Berikut adalah beberapa project yang pernah atau sedang saya kerjakan</p>
 
     <h3>Project 1 : Automatic Height Measurement</h3>
-    <img src="assets/height.jpeg" alt="Height Measurement" width="200" />
+    <img src="assets/height.jpeg" alt="Height Measurement" class="fotoprojek" />
     <p>
       Alat sederhana untuk mengukur tinggi badan menggunakan sensor
       <em>Ultrasonic</em>
     </p>
 
     <h3>Project 2 : Automatic Rain Detector</h3>
-    <img src="assets/raindetect.jpeg" alt="Rain Detector" width="200" />
+    <img src="assets/raindetect.jpeg" alt="Rain Detector" class="fotoprojek"/>
     <p>
       Alat sederhana yang mendeteksi hujan dengan sensor air yang akan
       menggerakan jemuran otomatis ketika hujan turun
     </p>
 
     <h3>Project 3 : Game Kreswara</h3>
-    <img src="assets/kreswara.jpeg" alt="game" width="200" />
+    <img src="assets/kreswara.jpeg" alt="game" class="fotoprojek" />
     <p>Berkontribusi pada projek game yang dibuat di Semester 2</p>
 
     <h2>Teknologi yang Digunakan</h2>
-    <ul>
+    <ul class="listbulat">
       <li>Arduino</li>
       <li>C++</li>
       <li>HTML</li>
@@ -41,7 +46,7 @@
       <li>Git</li>
     </ul>
     <h2>Ringkasan Project</h2>
-    <table border="1" cellspacing="0" cellpadding="8">
+    <table border="1" cellspacing="0" cellpadding="8" class="tabel">
       <tr>
         <td colspan="4" align="center">
           <strong>Ringkasan Portofolio Project</strong>
@@ -74,7 +79,7 @@
       </tr>
     </table>
     <hr />
-    <a href="contact.html">Tertarik berdiskusi? Hubungi saya</a>
+    <a href="contact.html" class="back">Tertarik berdiskusi? Hubungi saya</a>
     <p>© 2026 Rifa Alfiyah.</p>
   </body>
 </html>

@@ -1,0 +1,132 @@
+*{
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px 8%;
+    background-color: rgba(243, 235, 242);
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.08);
+}
+h1{
+    color: rgb(75, 3, 77);
+    text-shadow: 4px 4px 2px rgb(240, 141, 235);
+    text-align: center;
+    font-family: poppins, sans-serif;
+}
+
+h2,h3,h5{   
+    color: rgb(97, 13, 125);
+    text-shadow: 0 1px 1px rgb(255, 170, 229);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.greeting {
+    color: rgba(101, 62, 229, 0.918);
+    text-shadow: 1px 1px 1px rgba(246, 245, 245, 0.418);
+    text-align: center;
+    font-family: poppins, sans-serif;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a {
+    position: relative;
+    color: #1d3557;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: all 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #7c3aed;
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: #7c3aed;
+    transform: translateY(-3px);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.fotoprofil {
+    width: 300px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+.listbulat {
+    padding-left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#index{
+    background: linear-gradient(to bottom, rgb(243, 235, 242), rgb(243, 235, 242), rgba(243, 235, 242));
+}
+#about{
+    background: linear-gradient(to bottom, rgb(243, 235, 242), rgb(243, 235, 242), rgba(243, 235, 242));
+}
+#contact{
+    background: linear-gradient(to bottom, rgb(243, 235, 242), rgb(243, 235, 242), rgba(243, 235, 242));
+}
+#project{
+    background: linear-gradient(to bottom, rgb(243, 235, 242), rgb(243, 235, 242), rgba(243, 235, 242));
+}
+#hobi{
+    background: linear-gradient(to bottom, rgb(243, 235, 242), rgb(243, 235, 242), rgba(243, 235, 242));
+}
+
+.fotoprojek{
+    width: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+.tabel {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: rgb(97, 13, 125);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background-color: rgb(75, 3, 77);
+    transform: translateY(-3px);
+}
